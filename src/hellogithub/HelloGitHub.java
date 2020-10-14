@@ -18,7 +18,7 @@ import javafx.stage.Stage;
  * @author earlie87
  */
 public class HelloGitHub extends Application {
-	
+	int b = 0;
 	@Override
 	public void start(Stage primaryStage) {
 		Button btn = new Button();
@@ -41,7 +41,9 @@ public class HelloGitHub extends Application {
 		primaryStage.show();
 		System.out.println("\nLeaving hello GitHub now!!...Bye bye!!");
 		System.out.println("\nadded another println.");
-
+		for(int a = 0; a< 10; a++){
+			b += a;
+		}
 	}
 
 	/**
