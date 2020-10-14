@@ -39,6 +39,8 @@ public class HelloGitHub extends Application {
 		primaryStage.setTitle("Hello GitHub!");
 		primaryStage.setScene(scene);
 		primaryStage.show();
+		System.out.println("\nLeaving hello GitHub now!!...Bye bye!!");
+		
 	}
 
 	/**
