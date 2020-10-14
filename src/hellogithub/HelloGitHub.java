@@ -40,12 +40,8 @@ public class HelloGitHub extends Application {
 		primaryStage.setScene(scene);
 		primaryStage.show();
 		System.out.println("\nLeaving hello GitHub now!!...Bye bye!!");
-		//what is going on...???
-		//do you get it?
-		//added comment...
-		
-		
-		
+		System.out.println("\nadded another println.");
+
 	}
 
 	/**
