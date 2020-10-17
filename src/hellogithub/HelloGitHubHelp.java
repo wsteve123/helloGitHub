@@ -10,31 +10,31 @@ package hellogithub;
  * @author earlie87
  */
 public class HelloGitHubHelp {
-	private String lstring = "";
-	private int valuein = 0;
+	private String localString = "";
+	private int localInt = 0;
 
 	public String getLstring() {
-		return lstring;
+		return localString;
 	}
 
 	public void setLstring(String lstring) {
-		this.lstring = lstring;
+		this.localString = lstring;
 	}
 	public void prLstring(){
-		System.out.println("lString is: " + lstring);
+		System.out.println("lString is: " + localString);
 	}
 	public void prValuein(){
-		System.out.println("valuin is: " + valuein);
+		System.out.println("valuin is: " + localInt);
 	}
 	public int getValuein() {
-		return valuein;
+		return localInt;
 	}
 
 	public void setValuein(int valuein) {
-		this.valuein = valuein;
+		this.localInt = valuein;
 	}
 	public HelloGitHubHelp(String in) {
-		lstring = in;
+		localString = in;
 		System.out.println("string in : " + in);
 	}
 	
