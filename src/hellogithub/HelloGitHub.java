@@ -19,6 +19,7 @@ import javafx.stage.Stage;
  */
 public class HelloGitHub extends Application {
 	int b = 0;
+	HelloGitHubHelp help = new HelloGitHubHelp("startup");
 	@Override
 	public void start(Stage primaryStage) {
 		Button btn = new Button();
@@ -41,6 +42,10 @@ public class HelloGitHub extends Application {
 		primaryStage.show();
 		System.out.println("\nLeaving hello GitHub now!!...Bye bye!!");
 		System.out.println("\nadded another println.");
+		help.setValuein(21);
+		help.setLstring("about to enter for loop");
+		help.prValuein();
+		help.prLstring();
 		for(int a = 0; a< 10; a++){
 			b += a;
 		}
