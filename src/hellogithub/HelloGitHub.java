@@ -20,6 +20,7 @@ import javafx.stage.Stage;
 public class HelloGitHub extends Application {
 	int b = 0;
 	HelloGitHubHelp help = new HelloGitHubHelp("startup");
+	AddedClassA addedClassA = new AddedClassA(5);
 	@Override
 	public void start(Stage primaryStage) {
 		Button btn = new Button();
@@ -49,6 +50,7 @@ public class HelloGitHub extends Application {
 		for(int a = 0; a< 10; a++){
 			b += a;
 		}
+		addedClassA.setParm1(56);
 	}
 
 	/**
