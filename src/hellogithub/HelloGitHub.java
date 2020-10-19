@@ -47,9 +47,6 @@ public class HelloGitHub extends Application {
 		help.setLstring("about to enter for loop");
 		help.prValuein();
 		help.prLstring();
-		for(int a = 0; a< 10; a++){
-			b += a;
-		}
 		addedClassA.setParm1(56);
 	}
 
