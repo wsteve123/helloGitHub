@@ -48,6 +48,11 @@ public class HelloGitHub extends Application {
 		help.prValuein();
 		help.prLstring();
 		addedClassA.setParm1(56);
+		//add while loop
+		b = 200;
+		while (b > 0){
+			b--;
+		}
 	}
 
 	/**
